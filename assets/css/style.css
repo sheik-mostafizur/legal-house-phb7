@@ -37,3 +37,20 @@ h6 {
   border: none;
   border-radius: 8px;
 }
+
+/* start header */
+header nav ul li a.nav-link {
+  display: inline-block;
+}
+header nav ul li + li:after {
+  padding-right: 16px;
+  color: black;
+  content: ">";
+}
+
+header .banner {
+  background: linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%),
+    no-repeat center/cover url("../images/banner.png");
+  border-radius: 8px;
+  padding: 100px 16px;
+}
