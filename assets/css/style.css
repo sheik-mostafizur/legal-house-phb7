@@ -60,9 +60,18 @@ header .banner {
 main > section {
   margin: 120px 0;
 }
+
+/* legal_practice */
 .legal_practice .row:last-child > div {
   transition: "background" 0.3s;
 }
 .legal_practice .row:last-child > div:hover {
   background: var(--hover-bg);
+}
+
+/* our_client */
+
+.our_client .lh-slide-image {
+  height: 500px;
+  object-fit: cover;
 }
