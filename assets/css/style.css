@@ -7,6 +7,7 @@
   --white: #ffffff;
   --dark2: #414040;
   --dark3: #707070;
+  --dark7:#F3F3F3;
   --hover-bg: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
 }
 
@@ -62,9 +63,6 @@ main > section {
 }
 
 /* legal_practice */
-.legal_practice .row:last-child > div {
-  transition: "background" 0.3s;
-}
 .legal_practice .row:last-child > div:hover {
   background: var(--hover-bg);
 }
@@ -74,4 +72,13 @@ main > section {
 .our_client .lh-slide-image {
   height: 500px;
   object-fit: cover;
+}
+
+/* frequently area */
+.frequently .lh-accordion{
+  margin: 1rem 0;
+}
+.frequently .lh-accordion,
+.frequently .lh-accordion button{
+  background-color: var(--dark7) !important;
 }
