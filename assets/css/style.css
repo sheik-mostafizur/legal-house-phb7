@@ -84,6 +84,20 @@ main > section {
   background-color: var(--dark7) !important;
 }
 
+/* contact_us */
+.contact_us .details > div {
+  background-color: var(--dark7);
+  padding: 3rem;
+  border: 1px solid var(--dark5);
+}
+.contact_us .details * a {
+  display: block;
+  color: var(--dark3);
+  text-decoration: none;
+}
+.contact_us input, .contact_us textarea {
+  background-color: var(--dark7);
+}
 /* footer */
 footer * p {
   color: var(--dark5) !important;
