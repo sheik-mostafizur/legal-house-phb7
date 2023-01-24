@@ -7,7 +7,8 @@
   --white: #ffffff;
   --dark2: #414040;
   --dark3: #707070;
-  --dark7:#F3F3F3;
+  --dark5: #cfcfcf;
+  --dark7: #f3f3f3;
   --hover-bg: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
 }
 
@@ -75,10 +76,24 @@ main > section {
 }
 
 /* frequently area */
-.frequently .lh-accordion{
+.frequently .lh-accordion {
   margin: 1rem 0;
 }
 .frequently .lh-accordion,
-.frequently .lh-accordion button{
+.frequently .lh-accordion button {
   background-color: var(--dark7) !important;
+}
+
+/* footer */
+footer * p {
+  color: var(--dark5) !important;
+}
+footer * a {
+  display: block;
+  color: var(--dark5);
+  text-decoration: none;
+}
+
+footer .subscribe button {
+  margin-left: -1rem;
 }
